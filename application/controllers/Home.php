@@ -38,11 +38,15 @@ class Home extends CI_Controller
 
 	public function contacto()
 	{
-		$this->send_mail();
+		if ($_POST) {
+			$data['nome'] = $_POST['nome'];
+			$data['email'] = $_POST['email'];
+			$data['assunto'] = $_POST['assunto'];
+			$data['message'] = $_POST['mensagem'];
+			$this->send_mail($data);
+		}
 
-
-
-		$data = $this->_data(' - Contactos');
+		$data = $this->_data(' Contactos');
 		$data['offices'] = array(
 			array(
 				'nome' => 'Head Office',
@@ -77,13 +81,13 @@ class Home extends CI_Controller
 		return $data;
 	}
 
-	public function send_mail()
+	public function send_mail($data)
 	{
 		$mail = new PHPMailer(true);
 
 		try {
 			//Server settings
-			$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
+			$mail->SMTPDebug = SMTP::DEBUG_OFF;                      // Enable verbose debug output
 			$mail->isSMTP();                                            // Send using SMTP
 			$mail->Host = 'mail.helvan.co.ao';                    // Set the SMTP server to send through
 			$mail->SMTPAuth = true;                                   // Enable SMTP authentication
@@ -92,20 +96,35 @@ class Home extends CI_Controller
 			$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
 			$mail->SMTPAutoTLS = true;                                   // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 			$mail->Port = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+			$mail->SMTPOptions = array(
+				'ssl' => array(
+					'verify_peer' => false,
+					'verify_peer_name' => false,
+					'allow_self_signed' => true
+				)
+			);
 
 			//Recipients
 			$mail->setFrom('site@helvan.co.ao', 'SITE HELVAN');
-			$mail->addAddress('site@helvan.co.ao', 'SITE HELVAN');     // Add a recipient
-			//$mail->addAddress('ellen@example.com');               // Name is optional
-			//$mail->addReplyTo('info@example.com', 'Information');
+			$mail->addAddress('geral@helvan.co.ao', 'Geral HELVAN');     // Add a recipient
+
+
+			$mail->addReplyTo($data['email'], $data['nome']);
 			//$mail->addCC('cc@example.com');
 			//$mail->addBCC('bcc@example.com');
 
 			// Content
 			$mail->isHTML(true);                                  // Set email format to HTML
-			$mail->Subject = 'Here is the subject';
-			$mail->Body = 'This is the HTML message body <b>in bold!</b>';
-			$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+			$mail->Subject = $data['assunto'];
+			$mail->Body = '
+			<p>
+			Nome: ' . $data["nome"] . '<br/>
+			Email: ' . $data["email"] . '<br/>
+			Menssagem: ' . $data["message"] . '
+			</p>
+			';
+
+			$mail->AltBody = 'Menssagem do site';
 
 			$mail->send();
 		} catch (Exception $e) {
