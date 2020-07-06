@@ -19,7 +19,7 @@
 			</div>
 			<div class="carousel-item" style="background-image: url('<?= base_url('assets/') ?>images/slider-03.jpg')">
 				<div class="carousel-caption d-none d-md-block">
-					<p>A Great Theme For Business Consulting</p>
+					<p>A Great For Business Consulting</p>
 				</div>
 			</div>
 		</div>
@@ -39,11 +39,9 @@
 			<div class="col-lg-6">
 				<h2>Bem-vindo a Helvan</h2>
 				<p>
-					A HELVAN é uma empresa de direito Angolano ,com sede em luanda –Talatona encontra –se esta
-					localizada no quarteirão
-					C Casa nº 43.Esta no mercado a 5 anos é uma empresa de Comercio e Prestação de Serviço e
-					segue os conceitos da mais alta qualidade no mercado formal tendo uma equipa de profissionais
-					capacitados com uma vasta experiência na realização de inúmeras tarefas ;
+					A nossa politica com os clientes esta na qualidade e satisfação ,melhoria continua e valorização dos
+					colaboradores  sabendo que cada um possui uma necessidade em determinados setores dos seus negócios e
+					é ai que atuamos para fornecer todo suporte com profissionais qualificados.
 				</p>
 			</div>
 			<div class="col-lg-6">

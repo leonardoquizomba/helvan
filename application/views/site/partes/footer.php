@@ -18,7 +18,11 @@
 		<div class="row">
 			<div class="col-lg-4 col-md-6 col-sm-6 col">
 				<h5 class="headin5_amrc col_white_amrc pt2">Sobre nos</h5>
-				<p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				<p class="mb10">
+					A nossa politica com os clientes esta na qualidade e satisfação ,melhoria continua e valorização dos
+					colaboradores  sabendo que cada um possui uma necessidade em determinados setores dos seus negócios e
+					é ai que atuamos para fornecer todo suporte com profissionais qualificados.
+				</p>
 			</div>
 			<div class="col-lg-4 col-md-6 col-sm-6">
 				<h5 class="headin5_amrc col_white_amrc pt2">links</h5>

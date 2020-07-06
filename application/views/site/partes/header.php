@@ -42,8 +42,8 @@
 	</div>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-light top-nav">
 		<div class="container">
-			<a class="navbar-brand" href="<?=base_url()?>">
-				<img src="<?=base_url('assets/')?>images" alt="logo" />
+			<a class="navbar-text" href="<?=base_url()?>" style="color: #1b1e21">
+				Helvan
 			</a>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="fas fa-bars"></span>

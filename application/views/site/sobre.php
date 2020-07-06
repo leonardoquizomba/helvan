@@ -19,9 +19,12 @@
 			</div>
 			<div class="col-lg-6">
 				<h2>Helvan</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+				<p>
+					A HELVAN é uma empresa de direito Angolano ,com sede em luanda –Talatona encontra –se esta
+					localizada no quarteirão C Casa nº 43.Esta no mercado a 5 anos é uma empresa de Comercio e Prestação de Serviço e
+					segue os conceitos da mais alta qualidade no mercado formal tendo uma equipa de profissionais
+					capacitados com uma vasta experiência na realização de inúmeras tarefas ;
+				</p>
 			</div>
 		</div>
 		<!-- /.row -->
@@ -33,14 +36,9 @@
 			<div class="col-lg-6">
 				<div class="left-ab">
 					<h3>Nossa missão</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-					<ul>
-						<li>Sed at tellus eu quam posuere mattis.</li>
-						<li>Phasellus quis erat et enim laoreet posuere ac porttitor ipsum.</li>
-						<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-						<li>Sed at tellus eu quam posuere mattis.</li>
-						<li>Phasellus quis erat et enim laoreet posuere ac porttitor ipsum.</li>
-					</ul>
+					<p>
+						Proporcionar  inovadoras e adaptadas as necessidades específicas do cliente numa dinâmica de confiança para uma criação de valor
+					</p>
 				</div>
 			</div>
 			<div class="col-lg-6">
@@ -58,14 +56,9 @@
 			<div class="col-lg-6">
 				<div class="left-ab">
 					<h3>Nossa visão</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-					<ul>
-						<li>Sed at tellus eu quam posuere mattis.</li>
-						<li>Phasellus quis erat et enim laoreet posuere ac porttitor ipsum.</li>
-						<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-						<li>Sed at tellus eu quam posuere mattis.</li>
-						<li>Phasellus quis erat et enim laoreet posuere ac porttitor ipsum.</li>
-					</ul>
+					<p>
+						Zelamos pelo bem estar dos nossos clientes oferecendo, e atendemos as suas necessidades ,usando sempre aliar serviços de qualidade , reconhecimento pelo nossos parceiros consolidando um posicionamento no mercado baseando em crescimento sustentável.
+					</p>
 				</div>
 			</div>
 		</div>
