@@ -1,0 +1,103 @@
+# Info: Indexar este sistema é proibido a não ser que tenhas permissao.
+
+User-agent: Applebot
+Disallow: /application/
+Disallow: /assets/
+Disallow: /system/
+Disallow: /vendor/
+
+User-agent: ia_archiver
+Disallow: /
+Disallow: /application/
+Disallow: /assets/
+Disallow: /system/
+Disallow: /vendor/
+
+User-agent: msnbot
+Disallow: /application/
+Disallow: /assets/
+Disallow: /system/
+Disallow: /vendor/
+
+User-agent: Naverbot
+Disallow: /application/
+Disallow: /assets/
+Disallow: /system/
+Disallow: /vendor/
+
+User-agent: seznambot
+Disallow: /application/
+Disallow: /assets/
+Disallow: /system/
+Disallow: /vendor/
+
+User-agent: Googlebot
+Disallow: /application/
+Disallow: /assets/
+Disallow: /system/
+Disallow: /vendor/
+
+User-agent: Bingbot
+Disallow: /application/
+Disallow: /assets/
+Disallow: /system/
+Disallow: /vendor/
+
+User-agent: Slurp
+Disallow: /application/
+Disallow: /assets/
+Disallow: /system/
+Disallow: /vendor/
+
+User-agent: baiduspider
+Disallow: /application/
+Disallow: /assets/
+Disallow: /system/
+Disallow: /vendor/
+
+User-agent: yandex
+Disallow: /application/
+Disallow: /assets/
+Disallow: /system/
+Disallow: /vendor/
+
+User-agent: Slurp
+Disallow: /application/
+Disallow: /system/
+Disallow: /vendor/
+
+User-agent: teoma
+Disallow: /application/
+Disallow: /system/
+Disallow: /vendor/
+
+User-agent: Twitterbot
+Disallow: /application/
+Disallow: /system/
+Disallow: /vendor/
+
+User-agent: Yeti
+Disallow: /application/
+Disallow: /system/
+Disallow: /vendor/
+
+User-agent: Googlebot
+Disallow: /application/
+Disallow: /system/
+Disallow: /vendor/
+Allow: /application/views/site/*
+
+User-agent: AdsBot-Google
+Disallow: /application/
+Disallow: /system/
+Disallow: /vendor/
+Allow: /application/views/site/*
+
+User-agent: Googlebot-Image
+Disallow: /application/
+Disallow: /system/
+Disallow: /vendor/
+Allow: /application/views/site/*
+
+User-agent: *
+Disallow: /
