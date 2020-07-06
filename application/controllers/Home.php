@@ -58,9 +58,9 @@ class Home extends CI_Controller
 			'skype' => '',
 		);
 		$data['contactos'] = array(
-			'tel' => '(+244) xxx xxx xxx',
-			'email' => 'mail@example.com',
-			'morada' => 'Luanda-Angola'
+			'tel' => '(+244) 939 369 484',
+			'email' => 'geral@helvan.co.ao',
+			'morada' => ''
 		);
 		return $data;
 	}

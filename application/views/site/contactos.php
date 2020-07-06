@@ -61,5 +61,5 @@
 	</div>
 </div>
 <div class="map-main">
-	<iframe width="100%" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+	<iframe width="100%" height="300px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d985.6750368252191!2d13.23351982921802!3d-8.81421467433742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOMKwNDgnNTEuMiJTIDEzwrAxNCcwMi42IkU!5e0!3m2!1sen!2sao!4v1593860715450!5m2!1sen!2sao"></iframe>
 </div>
